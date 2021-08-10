@@ -1,0 +1,580 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f6ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ==================
+-----Header-----
+================== */
+
+.top-head {
+    background-color: #202020;
+    overflow: hidden;
+    border-bottom: 2px solid #e79c2a;
+}
+.head-line {
+    background-color: #e79c2a;
+}
+.t-mar {
+    width: 1140px;
+    margin: auto;
+}
+.top-contact {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.top-contact img {
+    height: 13px;
+}
+.top-contact a, .top-contact span{
+    padding: 7px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+#mobile {
+    display: none;
+}
+header {
+    max-width: 1140px;
+    height: 75px;
+    margin: auto;
+}
+header img {
+    margin-top: 8px;
+    height: 60px;
+}
+nav {
+    float: right;
+    margin-top: 15px;
+}
+nav ul, footer ul {
+    text-decoration: none;
+    padding: 0;
+}
+nav li, footer li {
+    display: inline-block;   
+}
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5.5em;
+}
+nav li:hover a {
+   color: #f0a500;
+}
+
+/* ==================
+-----Wrapper body-----
+================== */
+
+#wrapper {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto ;
+    background-color: white;
+}
+main {
+    overflow: hidden;
+}
+main h3 { margin: 0; text-transform: uppercase; }
+h2 { margin: 12px 0; color: #1b262c }
+main h3 {
+    color: #cf7500;
+}
+main a span {
+    color: black;
+}
+.banner {
+    height: 595px;
+    background: url('../images/banner.jpg') no-repeat;
+    background-size: 1140px 595px;
+}
+.b_info {
+    padding: 17.5% 0  0 7.5%; 
+    height: 100%;
+    background-image: linear-gradient(to right, black, rgba(0,0,0,0));
+}
+.h2-sup {
+    display: inline-block;
+    margin: 15px;
+    letter-spacing: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.b_info h1 {
+    font-size: 55px;
+    color: white;
+    display: inline;
+    border-left: 7px solid #e79c2a;
+    background-color: rgba(255, 208, 0, 0.096);
+}
+.h2-sub {
+    display: inline-block;
+    margin: 15px;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+section{
+    padding: 50px 7.5%;
+    overflow: hidden;
+}
+/* ----------cover bg---- */
+.cover {
+    background: url("../images/cover2.jpg") no-repeat;
+    background-size: 1140px auto;
+}
+.cover4 {
+    background: url("../images/cover4.jpg") no-repeat;
+    background-size: 1140px auto;
+}
+.cover3 {
+    background: url("../images/cover3.jpg") no-repeat;
+    background-size: 1140px auto;
+}
+.cover span, .cover3 span, .cover4 span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.cover h2, .cover3 h2, .cover4 h2{
+    color: white;
+}
+
+/* ---------- */
+.bg {
+    background-color: #f4f4f4;
+}
+.flt-right{
+    float: right;
+    margin-left: 50px;
+    height: 300px;
+}
+.underline {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: orange;
+}
+/* -----flex-box coding */
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.classes {
+    width: 300px;
+    margin-top: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.classes h3 {
+    margin: 0;
+    color: #33313b;
+}
+.classes p {
+    font-size: 12px;
+}
+/* ------------------ */
+.clear {
+    clear: both;
+}
+.about {
+    width: 48%;
+}
+.h2-top {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+.choose, .float-right {
+    float: right;
+    width: 45%;
+}
+.r-img {
+    width: 50%;
+}
+.b1 img {
+    height: 50px;
+    margin-left: 15px;
+}
+.b1_des {
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.desc {
+    text-align: justify;
+    font-size: 15px;
+    color: #33313b;
+    margin-bottom: 20px;
+}
+.c-list {
+    margin: 0;
+}
+.desc+h4{
+    margin: 7px 0;
+}
+
+/* ==================
+-----Footer-----
+================== */
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding-top: 30px;
+}
+footer h3{
+    color: #e79c2a;
+}
+footer input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+footer span {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    background-color: #0e0e0e;
+}
+footer a span {
+    color:#fff;
+}
+.f-div {
+    width: 1140px;
+    margin: auto;
+    padding-bottom: 16px;
+}
+.f-mar{
+    width: 85%;
+    margin: auto;
+}
+.f-sec {
+    width: 200px;
+}
+.f-sec p {
+    line-height: 25px;
+}
+.f-sec li a{
+    color: #fff;
+    text-decoration: none;
+}
+.f-sec ul li{
+    display: block;
+    padding: 4px;
+}
+.f-share img {
+    height: 35px;
+    border-radius: 7px;background-color: #e79b2a81;
+}
+.f-share img:hover {
+    background-color: #e79b2a;
+}
+
+/* ---------------- */
+
+
+/*------------ form area coding-------- */
+form {
+    margin: 40px 0;
+    width: 600px;
+}
+.p-tb {
+    width: 45%;
+}
+.p-ta{
+    width: 95%;
+}
+.form-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+form input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+form label {
+    font-family: inherit;
+    font-weight: bold;
+    color: #666;
+}
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+form button {
+    padding: 7px 20px;
+    border: none;
+}
+button[type=reset] {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+button[type=submit]{
+    border:1px solid black;
+}
+/* //------------------ */
+
+/* ---------button-------- */
+.button1 {
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1.5px solid black;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1.5px solid white;
+    background-color: transparent;
+}
+.button:hover {
+    background-color: #e79c2a;
+    color: black;
+    border-color: black;
+}
+
+/* ===========================
+-------Tables----------
+================================ */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 8px #ddd;
+}
+table, th, td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #eee;
+}
+td, th {
+    text-align: center;
+    padding: 10px 10px;
+}
+th {
+    background-color: #3d3d3d;
+    color: white;
+}
+
+/* ---Mobile Version--- */
+
+@media only screen and (max-width: 768px) {
+    table, th, td, tr, tbody, thead {
+        display: block;
+        border: none;
+    }
+    table {
+        margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+        width: 80%;  
+    }
+    thead, th {
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+    }
+    tr {
+        margin: 10px 0;
+        background-color: #3d3d3d;
+    }
+    td {
+        text-align: left;
+        margin-left: 50%;
+        border-bottom: 1px solid #eee;
+    }
+    td:nth-of-type(odd) {
+        background-color: #f4f4f4;
+    }
+    td:nth-of-type(even) {
+        background-color: white;
+    }
+    td::before {
+        position: absolute;
+        left: 16%;
+        margin-top: -10px;
+        padding: 10px;
+        width: 45%;
+        color: white;
+        font-weight: bold;
+        padding-right: 40px;
+        border-bottom: 1px solid #f4f4f4;
+    }
+    td:nth-of-type(1):before {content: 'First name'}
+    td:nth-of-type(2):before {content: 'Last name'}
+    td:nth-of-type(3):before {content: 'Father name'}
+    td:nth-of-type(4):before {content: 'Year'}
+    td:nth-of-type(5):before {content: 'Exam'}
+    td:nth-of-type(6):before {content: 'Rank'}
+    td:nth-of-type(7):before {content: 'City'}
+    td:nth-of-type(8):before {content: 'Placement'}
+}
+
+
+/* ===========================
+-------Media Queries----------
+================================ */
+/* ------Mobile------- */
+@media only screen and (max-width: 768px) {
+    #wrapper, header, .f-div {
+        width: 100%;
+    }
+    #wrapper {
+        padding-top: 0px;
+    }
+    .t-mar{
+        width: 100%;
+        overflow: hidden;
+    }
+    header{
+        text-align: center;
+        border-bottom: 1px solid grey ;
+    }
+    header img {
+     display: block;
+     margin: auto;
+     padding: 10px;
+     width: 150px;
+     height: auto;
+    }
+    nav{
+        margin-top: 0;
+       float: right;
+        height: auto;
+        width: 100%;
+    }
+    nav li {
+        text-align: center;
+        overflow: hidden;
+        width: 45%;
+        margin: 2px ;
+    }
+    nav li a{
+        display: block;
+        padding: 15px;
+        width: 93%;
+        margin: 2px;
+         border: 1px solid #f0a500;
+    }
+    section {
+        text-align: center;
+    }
+    section>h2{
+        text-align: center;
+        margin: 12px 0;
+    }
+    .underline {
+        margin:auto;
+    }
+    .about {
+        width: 100%;
+    }
+    .h2-top, .banner {
+        margin: auto;
+    }
+    h2 {
+        text-align: center;
+    }
+    .flex-container {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .classes{
+        align-self: center;
+    }
+    .flt-right {
+        float:none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 10px 0;
+    }
+    .choose, .float-right {
+        float: none;
+        width: 100%;
+    }
+    .r-img{
+        width: 100%;
+    }
+    .b_info{
+        position: relative;
+        left: auto;
+        top: auto;
+        z-index: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .choose {
+        float: none;
+        width: 100%;
+    }
+    .b1, .f-sec {
+        align-self: center;
+        text-align: center;
+    }
+    .f-sec li  {
+        margin-top: 10px;
+    }
+    .c-list {
+        text-align: left;
+        
+    }
+    .b1_des {
+        width: auto;
+        font-size: 14px;
+    }
+    .b1 img{
+        margin: 0;
+    }
+    form {
+        width: 100%;
+    }
+    .form-flex {
+        flex-flow: column wrap;
+        justify-content: left;
+    }
+    .p-tb, .p-ta {
+        width: 95%;
+        text-align: left;
+    }
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: inline;
+    }
+}
+
+/* -----Tablet------ */
+@media only screen and (min-width:800px) and (max-width: 1024px) {
+    #wrapper, header {
+        width: 100%;
+    }
+    .f-div, .t-mar{
+        width: 100%;
+        margin: 0;
+    }
+    header {
+        width: 85%;
+        margin: auto;
+    }
+
+}
